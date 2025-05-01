@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
+  gap: 20px;
+  justify-content: center;
+  align-content: center;
+  margin: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  height: 100vh;
+  overflow: auto;
+}
+
+.instructions {
+  grid-column: span 5;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.door {
+  background-color: #ffceab;
+  color: #3c3e3c;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out,
+    box-shadow 0.3s ease-in-out;
+  word-wrap: break-word;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.door:hover {
+  background-color: #f1a7a3;
+  transform: translateY(-10px) rotateX(10deg);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.door.clicked {
+  background-color: #a5d6a7;
+  font-size: 1rem;
+  color: #fff;
+  cursor: default;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.6s ease-in-out, background-color 0.6s ease-in-out;
+  height: auto;
+}
+
+.message-feedback {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: #2c3e50;
+}
