@@ -5,7 +5,7 @@
 BlissBlom schenkt dir mit jedem Klick eine sanfte Affirmation – versteckt hinter 26 stilisierten „Türen“. Die Anwendung lädt dazu ein, kurz innezuhalten, durchzuatmen und einen Moment für sich selbst zu genießen.
 
 ## Screenshot
-![BlissBloom.png](https://github.com/MsCodingLabs/quizze/blob/main/quizze.png)
+![blissBloom.png](https://github.com/MsCodingLabs/BlissBloom/blob/main/blissBloom.png)
 
 ## ✨ Features
 
